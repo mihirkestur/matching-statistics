@@ -1,11 +1,16 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r") as f:
+    description = f.read()
+
 setup(
     name='matching-statistics',
-    version='0.1.0',
+    version='0.2.0',
     description='Library for Matching Statistics using Suffix Tree',
     author='Mihir Kestur',
     author_email='mkestur@cs.stonybrook.edu',
+    long_description=description,
+    long_description_content_type="text/markdown",
     packages=find_packages(),
     url="https://github.com/mihirkestur/matching-statistics",
     install_requires=[

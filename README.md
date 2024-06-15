@@ -11,7 +11,7 @@ pip install matching-statistics
 ## Usage
 
 ```python
-from matching_statistics import MatchingStatistics
+from matching_statistics.MatchingStatistics import MatchingStatistics
 
 # Initialize with input string
 input_string = "your_input_string_here"

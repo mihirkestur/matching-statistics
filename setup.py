@@ -8,7 +8,9 @@ setup(
     author_email='mkestur@cs.stonybrook.edu',
     packages=find_packages(),
     url="https://github.com/mihirkestur/matching-statistics",
-    install_requires=[],
+    install_requires=[
+        'suffix-trees',
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

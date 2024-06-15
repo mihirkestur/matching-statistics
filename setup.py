@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='matching-statistics',
-    version='0.2.0',
+    version='0.3.0',
     description='Library for Matching Statistics using Suffix Tree',
     author='Mihir Kestur',
     author_email='mkestur@cs.stonybrook.edu',
